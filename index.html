@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Test site</title>
 </head>
@@ -158,10 +157,61 @@
         <!-- шестая секция -->
          <section class="sixth-section">
             <div class="sixth-section__content-container content-container container">
-               <h6 class="sixth-section__title">ОТВЕТЫ НА ВОПРОСЫ</h6>
-               
+               <div class="container sixth-section">
+                  <h6 class="sixth-section__title text-center">ОТВЕТЫ НА ВОПРОСЫ</h6>
+                  <div class="row">
+                     <div class="col-12">
+                        <div class="accordion accordion-flush" id="accordion1">
+                           <!-- первый элемент -->
+                           <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button sixth-section__text collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                 РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion1" aria-labelledby="heading1">
+
+                                <div class="accordion-body fst-italic">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </div>
+                              </div>
+                            </div>
+                            <!-- второй элемент -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed sixth-section__text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                 РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion1" aria-labelledby="heading2">
+                                <div class="accordion-body fst-italic">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </div>
+                              </div>
+                            </div>
+                            <!-- третий элемент -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed sixth-section__text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                 РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion1" aria-labelledby="heading3">
+                                <div class="accordion-body fst-italic">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </div>
+                              </div>
+                            </div>
+                            <!-- четвертыц элемент -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed sixth-section__text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                 РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?
+                                </button>
+                              </h2>
+                              <div id="flush-collapse4" class="accordion-collapse collapse" data-bs-parent="#accordion1" aria-labelledby="heading4">
+                                <div class="accordion-body fst-italic">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </div>
+                              </div>
+                            </div>
+                        </div>
+                  </div>
+               </div>
             </div>
          </section>
-      <script src="js/bootstrap.bundle.min.js"></script>
+         <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

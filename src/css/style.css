@@ -729,5 +729,24 @@ table {
 
 .sixth-section {
   position: relative;
-  top: 1800px;
+  top: 800px;
+}
+
+.sixth-section__title {
+  margin-bottom: 60px;
+  font-size: 36px;
+  color: #404149;
+  font-family: "Oswaldd";
+}
+
+.sixth-section__text {
+  color: #F7654A;
+  font-size: 24px;
+  font-family: "Oswaldd";
+}
+
+.accordion-body {
+  color: #999;
+  font-size: 16px;
+  font-family: "OswaldD";
 }
