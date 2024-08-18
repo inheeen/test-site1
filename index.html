@@ -3,27 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    <script src="https://kit.fontawesome.com/fcabb6f3d8.js" crossorigin="anonymous"></script>
     <title>Test site</title>
 </head>
 <body>
     <!-- первая секция -->
      <section class="main-section">
-        <!-- <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span> -->
-        </div>
+        <!-- навигационное меню -->
         <div class="main-section__nav-container container">
-            <!-- навигационное меню -->
              <header class="main-section__header">
                 <a href="#"><img src="./src/icons/logo.svg" alt="#" class="main-section__logo"></a>
              </header>
+             <!-- бургер -->
+             <button class="burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+             </button>
+        </div>
+        <div class="main-section__content-container content-container container">
+            <h1 class="main-section__title">РЕАЛИЗУЕМ КРУПНЕЙШИЕ <br> ПРОЕКТЫ В РОССИИ</h1>
+            <p class="main-section__text">стадионы, газопроводы, мосты, дамбы</p>
         </div>
      </section>
+     <!-- вторая секция -->
+     <section class="second-section">
+      <div class="second-section__content-container content-container container">
+         <div class="content-container__about-box">
+            <div class="content-container__about-item about-item">
+               <h2 class="about-item__title">26</h2>
+               <h3 class="about-item__title-text">лет</h3>
+               <p class="about-item__text">на рынке</p>
+            </div>
+            <div class="content-container__about-item about-item">
+               <h2 class="about-item__title">26</h2>
+               <h3 class="about-item__title-text">лет</h3>
+               <p class="about-item__text">на рынке</p>
+            </div>
+            <div class="content-container__about-item about-item">
+               <h2 class="about-item__title">26</h2>
+               <h3 class="about-item__title-text">лет</h3>
+               <p class="about-item__text">на рынке</p>
+            </div>
+            <div class="content-container__about-item about-item">
+               <h2 class="about-item__title">26</h2>
+               <h3 class="about-item__title-text">лет</h3>
+               <p class="about-item__text">на рынке</p>
+            </div>
+         </div>
+         <h4 class="second-section__title">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h4>
+         <div class="content-container__photo-box">
+            <div class="content-container__photo-item photo-item">
+               <img src="./src/img/photo-item.png" alt="" class="photo-item__img">
+               <div class="photo-item__line"></div>
+               <p class="photo-item__title">Газпром Арена</p>
+               <p class="photo-item__text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+            </div>
+            <div class="content-container__photo-item photo-item">
+               <img src="./src/img/photo-item.png" alt="" class="photo-item__img">
+               <div class="photo-item__line"></div>
+               <p class="photo-item__title">Газпром Арена</p>
+               <p class="photo-item__text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+            </div>
+            <div class="content-container__photo-item photo-item">
+               <img src="./src/img/photo-item.png" alt="" class="photo-item__img">
+               <div class="photo-item__line"></div>
+               <p class="photo-item__title">Газпром Арена</p>
+               <p class="photo-item__text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.</p>
+            </div>
+         </div>
+      </div>
+     </section>
+     <!-- третья секция -->
+      <section class="third-section">
+         <div class="third-section__content-container content-container container">
+            <div class="third-section__text-box">
+               <h5 class="third-section__title">САМЫЕ УМНЫЕ ПРОЕКТЫ</h5>
+               <p class="third-section__text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
+            </div>
+            <button class="third-section__button button">
+               <img src="./src/icons/postcard.svg" alt="" class="button__img">
+               <p class="button__text">ваш запрос</p>
+            </button>
+         </div>
+      </section>
+      <!-- четвертая секция -->
+       <section class="fourth-section">
+         <div class="fourth-section__content-container content-container container">
+            <h6 class="fourth-section__title">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h6>
+            <div class="content-container__info-box info-box">
+               <!-- 1 карточка -->
+               <div class="content-container__info-item info-item">
+                  <img src="./src/icons/info.svg" alt="" class="info-item__img">
+                  <p class="info-item__text">СТРОИТЕЛЬСТВО <br>ОФИСНЫХ ЗДАНИЙ</p>
+               </div>
+               <!-- 2 карточка -->
+               <div class="content-container__info-item info-item">
+                  <img src="./src/icons/info.svg" alt="" class="info-item__img">
+                  <p class="info-item__text">СТРОИТЕЛЬСТВО <br>ОФИСНЫХ ЗДАНИЙ</p>
+               </div>
+               <!-- 3 карточка -->
+               <div class="content-container__info-item info-item">
+                  <img src="./src/icons/info.svg" alt="" class="info-item__img">
+                  <p class="info-item__text">СТРОИТЕЛЬСТВО <br>ОФИСНЫХ ЗДАНИЙ</p>
+               </div>
+               <!-- 4 картчка -->
+               <div class="content-container__info-item info-item">
+                  <img src="./src/icons/info.svg" alt="" class="info-item__img">
+                  <p class="info-item__text">СТРОИТЕЛЬСТВО <br>ОФИСНЫХ ЗДАНИЙ</p>
+               </div>
+               <!-- 5 карточка -->
+               <div class="content-container__info-item info-item">
+                  <img src="./src/icons/info.svg" alt="" class="info-item__img">
+                  <p class="info-item__text">СТРОИТЕЛЬСТВО <br>ОФИСНЫХ ЗДАНИЙ</p>
+               </div>
+               <!-- 6 карточка -->
+               <div class="content-container__info-item info-item">
+                  <img src="./src/icons/info.svg" alt="" class="info-item__img">
+                  <p class="info-item__text">СТРОИТЕЛЬСТВО <br>ОФИСНЫХ ЗДАНИЙ</p>
+               </div>
+            </div>
+         </div>
+       </section>
+       <!-- пятая секция -->
+        <section class="fifth-section">
+         <div class="fifth-section__grid grid">
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+            <div class="grid__grid-item">
+               <img src="./src/img/fifth.png" alt="" class="grid__img">
+            </div>
+         </div>
+        </section>
+        <!-- шестая секция -->
+         <section class="sixth-section">
+            <div class="sixth-section__content-container content-container container">
+               <h6 class="sixth-section__title">ОТВЕТЫ НА ВОПРОСЫ</h6>
+               
+            </div>
+         </section>
+      <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
