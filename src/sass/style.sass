@@ -7,38 +7,13 @@
     font-weight: meduim
 
 @font-face
-    font-family: "Oswaldd"
-    src: url("../fonts/Oswald-Regular.ttf")
+    font-family: "Open"
+    src: url("../fonts/OpenSans-Regular.ttf")
     font-weight: regular
 
 $accent: #F7654A
 $white: #fff
 $accordion-icon-color: #F7654A
-/* .hamburger
-    width: 30px
-    position: fixed
-    top: 40px
-    right: 30px
-    height: 14px
-    z-index: 30
-    span
-        width: 100%
-        height: 2px
-        display: block
-        background: black
-        margin-bottom: 4px
-        &:last-child
-            margin-bottom: 0px */
-/* .hamburger_active
-    span
-        margin-bottom: -2px
-        transition: 1s all
-        &:nth-child(1)
-            transform: translateY(3px) rotate(-45deg)
-        &:nth-child(2)
-            display: none
-        &:nth-child(3)
-            transform: translateY(3px) rotate(45deg) */
 
 .container
     max-width: 1140px
@@ -71,7 +46,7 @@ $accordion-icon-color: #F7654A
         letter-spacing: 2px
     &__text
         font-size: 18px
-        font-family: "Oswaldd"
+        font-family: "Open"
         text-align: center
         color: white
         text-transform: uppercase
@@ -119,9 +94,6 @@ $accordion-icon-color: #F7654A
         justify-content: space-evenly
         align-items: center
 
-
-    
-
 .second-section
     min-width: 750px
     position: relative
@@ -162,7 +134,7 @@ $accordion-icon-color: #F7654A
     &__text
         font-size: 18px
         color: #999
-        font-family: "OswaldD"
+        font-family: "Open"
         text-align: center
 
 .photo-item
@@ -186,6 +158,7 @@ $accordion-icon-color: #F7654A
     &__text
         color: #999
         font-size: 16px
+        font-family: "Open"
 
 .third-section
     background-color: $accent
@@ -205,11 +178,11 @@ $accordion-icon-color: #F7654A
         font-size: 24px
         font-family: "OswaldD"
     &__button
-        background-color: 
         width: 175px
         height: 49px
         display: flex
         flex-direction: row
+
 
 .third-section__content-container
     display: flex
@@ -228,8 +201,8 @@ $accordion-icon-color: #F7654A
         text-transform: uppercase
         font-size: 14px
         color: black
-        font-family: "Oswaldd"
-
+        font-family: "OswaldD"
+    
 .fourth-section
     position: relative
     top: 1250px
@@ -279,7 +252,7 @@ $accordion-icon-color: #F7654A
 
 .sixth-section
     position: relative
-    top: 800px
+    top: 750px
     &__title
         margin-bottom: 60px
         font-size: 36px
@@ -293,5 +266,160 @@ $accordion-icon-color: #F7654A
 .accordion-body
     color: #999
     font-size: 16px
-    font-family: "OswaldD"
+    font-family: "Open"
 
+.seven-section
+    position: relative
+    top: 1650px
+    background-color: #404149
+    height: 364px
+    &__title
+        color: $white
+        font-size: 36px
+        font-family: "Oswaldd"
+        text-transform: uppercase
+        padding-top: 100px
+        text-align: center
+        margin-bottom: 60px
+
+.partner-box
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-content: center
+
+.eight-section
+    position: relative
+    top: 1800px
+    &__title
+        font-size: 36px
+        font-family: "Oswaldd"
+        text-transform: uppercase
+        text-align: center
+        margin-bottom: 60px
+        color: black
+
+.text-box
+    background-color: #F7F7F7
+    width: 350px
+    height: 290px
+    margin-bottom: 20px
+    &__title
+        color: $accent
+        font-family: "Oswaldd"
+        font-size: 124px
+        padding-top: 20px
+        padding-left: 20px
+    &__text
+        position: relative
+        top: -40px
+        width: 290px
+        padding-left: 20px
+        font-family: "Open"
+        font-size: 16px
+        color: #999
+    &__name
+        color: black
+        font-family: "Oswaldd"
+        font-size: 21px
+
+.name
+    &__span
+        color: $accent
+
+.rewies-box
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-content: center
+
+.nine-section
+    background-color: $accent
+    height: 180px
+    position: relative
+    top: 2000px
+    margin: 0 auto
+    display: flex
+    align-items: center
+    &__title
+        color: $white
+        font-size: 48px
+        font-family: "OswaldD"
+        margin-bottom: 20px
+    &__text
+        color: $white
+        font-size: 24px
+        font-family: "OswaldD"
+    &__button
+        background-color: 
+        width: 175px
+        height: 49px
+        display: flex
+        flex-direction: row
+
+.nine-section__content-container
+    display: flex
+    justify-content: space-between
+    flex-direction: row
+    align-items: center
+    align-content: space-between
+
+.ten-section
+    position: relative
+    top: 2100px
+    &__title
+        text-align: center
+        text-transform: uppercase
+        color: black
+        font-size: 48px
+        font-family: "Oswaldd"
+        margin-bottom: 60px
+
+.content-container__kontakt-box
+    display: flex
+    justify-content: space-between
+    flex-direction: row
+    align-items: center
+
+.kontakt-items
+    width: 255px
+    height: 185px
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: center
+    justify-content: flex-start
+    align-content: flex-start
+    &__img
+        margin-bottom: 36px
+    &__title
+        text-transform: uppercase
+        color: #999
+        font-size: 24px
+        font-family: "Oswaldd"
+        margin-bottom: 25px
+    &__text
+        text-transform: uppercase
+        color: black
+        font-size: 24px
+        font-family: "Oswaldd"
+        text-align: center
+        width: 255px
+        margin-bottom: 10px
+        
+.footer
+    background-color: #404149
+    position: relative
+    top: 2250px
+    height: 100px
+    &__text
+        color: $white
+        font-size: 16px
+        font-family: "Open"
+
+.footer__content-container
+    padding-top: 40px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-content: center
