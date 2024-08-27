@@ -402,9 +402,41 @@ table {
   font-weight: regular;
 }
 
+@media screen and (max-width: 1280px) {
+  .about {
+    padding: 450px 15px 110px 15px;
+  }
+}
+
+.navbar__text {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Open";
+  margin-right: 40px;
+}
+
+.navbar__search {
+  color: #F7654A;
+  margin-right: 20px;
+}
+
+.btn-outline-success {
+  color: #F7654A;
+  border-color: #F7654A;
+  font-family: "Open";
+}
+
+.navbar-form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 110px;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .main-section {
@@ -417,6 +449,7 @@ table {
 
 .main-section__logo {
   padding-left: 23px;
+  margin-right: 50px;
   width: 60px;
   height: 60px;
 }
@@ -834,10 +867,12 @@ table {
 }
 
 .nine-section__button {
+  background-color: #fff;
   width: 175px;
   height: 49px;
   display: flex;
   flex-direction: row;
+  border-radius: 0px;
 }
 
 .nine-section__content-container {
@@ -900,6 +935,11 @@ table {
   text-align: center;
   width: 255px;
   margin-bottom: 10px;
+}
+
+.kontakt-items__link {
+  color: black;
+  text-decoration: none;
 }
 
 .footer {

@@ -12,14 +12,30 @@
         <!-- навигационное меню -->
         <div class="main-section__nav-container container">
              <header class="main-section__header">
-                <a href="#"><img src="./src/icons/logo.svg" alt="#" class="main-section__logo"></a>
+               <nav class="navbar navbar-expand-lg navbar-light ">
+                  <a class="navbar-brand" href="#"><img src="./src/icons/logo.svg" alt="#" class="main-section__logo"></a>
+                  <button class="navbar-toggler" type="button navbar__button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"><p class="navbar__text">Большие проекты</p></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><p class="navbar__text">Чем занимаемся</p></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"><p class="navbar__text">Отзывы</p></a>
+                      </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 navbar-form">
+                      <input class="form-control mr-sm-2 navbar__search" type="search" placeholder="Поиск" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+                    </form>
+                  </div>
+                </nav>
              </header>
-             <!-- бургер -->
-             <button class="burger">
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-                <span class="burger__line"></span>
-             </button>
         </div>
         <div class="main-section__content-container content-container container">
             <h1 class="main-section__title">РЕАЛИЗУЕМ КРУПНЕЙШИЕ <br> ПРОЕКТЫ В РОССИИ</h1>
@@ -27,7 +43,7 @@
         </div>
      </section>
      <!-- вторая секция -->
-     <section class="second-section">
+     <section class="second-section" >
       <div class="second-section__content-container content-container container">
          <div class="content-container__about-box">
             <div class="content-container__about-item about-item">
@@ -81,10 +97,31 @@
                <h5 class="third-section__title">САМЫЕ УМНЫЕ ПРОЕКТЫ</h5>
                <p class="third-section__text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
             </div>
-            <button class="third-section__button button">
+            <button type="button" class="btn btn-primary nine-section__button button" data-toggle="modal" data-target="#exampleModal">
                <img src="./src/icons/postcard.svg" alt="" class="button__img">
                <p class="button__text">ваш запрос</p>
             </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     ...
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+               </div>
+               </div>
+            </div>
          </div>
       </section>
       <!-- четвертая секция -->
@@ -272,10 +309,32 @@
                <h5 class="nine-section__title">ХОТИТЕ С НАМИ РАБОТАТЬ?</h5>
                <p class="nine-section__text">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</p>
             </div>
-            <button class="nine-section__button button">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary nine-section__button button" data-toggle="modal" data-target="#exampleModal">
                <img src="./src/icons/postcard.svg" alt="" class="button__img">
                <p class="button__text">ваш запрос</p>
             </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     ...
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+               </div>
+               </div>
+            </div>
          </div>
       </section>
       <!-- десятая секция -->
@@ -292,8 +351,8 @@
                <div class="kontakt-box__kontakt-items kontakt-items">
                   <img src="./src/icons/1.svg" alt="" class="kontakt-items__img">
                   <p class="kontakt-items__title">телефон:</p>
-                  <p class="kontakt-items__text">8 (812) 111-22-33</p>
-                  <p class="kontakt-items__text">8 (812) 111-22-33</p>
+                  <p class="kontakt-items__text"><a class="kontakt-items__link" href="tel:+79258024477">8 (925) 802-44-77</a></p>
+                  <p class="kontakt-items__text"><a class="kontakt-items__link" href="tel:+79258024477">8 (925) 802-44-77</a></p>
                </div>
                <div class="kontakt-box__kontakt-items kontakt-items">
                   <img src="./src/icons/1.svg" alt="" class="kontakt-items__img">
@@ -304,7 +363,7 @@
                <div class="kontakt-box__kontakt-items kontakt-items">
                   <img src="./src/icons/1.svg" alt="" class="kontakt-items__img">
                   <p class="kontakt-items__title">E-MAIL:</p>
-                  <p class="kontakt-items__text">INFO@VIP.RU</p>
+                  <p class="kontakt-items__text"><a class="kontakt-items__link" href="mailto:m.ayushina@yandex.ru">m.ayushina@yandex.ru</a></p>
                </div>
             </div>
          </div>
