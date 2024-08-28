@@ -20,13 +20,13 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                       <li class="nav-item active">
-                        <a class="nav-link" href="#"><p class="navbar__text">Большие проекты</p></a>
+                        <a class="nav-link" href="#projects"><p class="navbar__text">Большие проекты</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#"><p class="navbar__text">Чем занимаемся</p></a>
+                        <a class="nav-link" href="#us"><p class="navbar__text">Чем занимаемся</p></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#"><p class="navbar__text">Отзывы</p></a>
+                        <a class="nav-link" href="#rewies"><p class="navbar__text">Отзывы</p></a>
                       </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0 navbar-form">
@@ -43,7 +43,7 @@
         </div>
      </section>
      <!-- вторая секция -->
-     <section class="second-section" >
+     <section id="projects" class="second-section" >
       <div class="second-section__content-container content-container container">
          <div class="content-container__about-box">
             <div class="content-container__about-item about-item">
@@ -97,27 +97,27 @@
                <h5 class="third-section__title">САМЫЕ УМНЫЕ ПРОЕКТЫ</h5>
                <p class="third-section__text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</p>
             </div>
-            <button type="button" class="btn btn-primary nine-section__button button" data-toggle="modal" data-target="#exampleModal">
+            <!-- Кнопка-триггер модального окна -->
+            <button type="button" class="btn btn-primary nine-section__button button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                <img src="./src/icons/postcard.svg" alt="" class="button__img">
                <p class="button__text">ваш запрос</p>
             </button>
             
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-               <div class="modal-dialog" role="document">
+            <!-- Модальное окно -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                     </button>
+                     <h1 class="modal-title fs-5 modal__text" id="exampleModalLabel">Узнать подробнее можете по номеру телефона</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                   </div>
-                  <div class="modal-body">
-                     ...
+                  <div class="modal-body ">
+                     <div class="kontakt-box__kontakt-items kontakt-items">
+                        <p class="kontakt-items__text"><a class="kontakt-items__link" href="tel:+79258024477">8 (925) 802-44-77</a></p>
+                     </div>
                   </div>
                   <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                     <button type="button" class="btn btn-primary">Save changes</button>
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
                   </div>
                </div>
                </div>
@@ -125,7 +125,7 @@
          </div>
       </section>
       <!-- четвертая секция -->
-      <section class="fourth-section">
+      <section id="us" class="fourth-section">
          <div class="fourth-section__content-container content-container container">
             <h6 class="fourth-section__title">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h6>
             <div class="content-container__info-box info-box">
@@ -274,7 +274,7 @@
          </div>
       </section>
           <!-- восьмая секция -->
-      <section class="eight-section">
+      <section id="rewies" class="eight-section">
          <div class="eight-section__content-container content-container container">
             <h6 class="eight-section__title">отзывы о работе с нами</h6>
             <div class="content-container__rewies-box rewies-box">
@@ -309,28 +309,26 @@
                <h5 class="nine-section__title">ХОТИТЕ С НАМИ РАБОТАТЬ?</h5>
                <p class="nine-section__text">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</p>
             </div>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary nine-section__button button" data-toggle="modal" data-target="#exampleModal">
+            <button type="button" class="btn btn-primary nine-section__button button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                <img src="./src/icons/postcard.svg" alt="" class="button__img">
                <p class="button__text">ваш запрос</p>
             </button>
             
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-               <div class="modal-dialog" role="document">
+            <!-- Модальное окно -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true">&times;</span>
-                     </button>
+                     <h1 class="modal-title fs-5 modal__text" id="exampleModalLabel">Оставить заявку можете по номеру телефона</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                   </div>
-                  <div class="modal-body">
-                     ...
+                  <div class="modal-body ">
+                     <div class="kontakt-box__kontakt-items kontakt-items">
+                        <p class="kontakt-items__text"><a class="kontakt-items__link" href="tel:+79258024477">8 (925) 802-44-77</a></p>
+                     </div>
                   </div>
                   <div class="modal-footer">
-                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                     <button type="button" class="btn btn-primary">Save changes</button>
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
                   </div>
                </div>
                </div>
