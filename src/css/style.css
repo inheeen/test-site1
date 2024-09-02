@@ -962,7 +962,6 @@ table {
     min-height: 690px;
   }
   .main-section__title {
-    padding-top: 100px;
     font-size: 42px;
     line-height: 54px;
   }
@@ -1225,7 +1224,7 @@ table {
   .main-section__title {
     font-size: 28px;
     position: relative;
-    top: -40px;
+    top: -100px;
     line-height: 35px;
     margin-bottom: 10px;
   }
