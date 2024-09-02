@@ -972,6 +972,10 @@ table {
     position: absolute;
     top: -100px;
   }
+  .content-container__title-box {
+    position: relative;
+    top: 100px;
+  }
   .navbar-toggler-icon {
     position: absolute;
     left: 700px;
@@ -1109,6 +1113,10 @@ table {
   }
   .content-container__photo-box {
     top: 300px;
+  }
+  .content-container__title-box {
+    position: relative;
+    top: 30px;
   }
   .about-item__title {
     font-size: 60px;
